@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,200&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+
+}
+.navbar{
+   height: 110px;
+   width: 100%;
+   color: white;
+   font-family: 'Nanum Gothic Coding', monospace;
+   background: linear-gradient(90deg, rgba(251, 168, 31, 1) 40%, rgba(55, 248, 225, 1) 94%);
+}
+nav label{
+    font:bold;
+    color:rgb(255,255,255);
+    line-height: 110px;
+    padding: 0px 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#back{
+   position: relative;
+   width:40%;
+   height: auto;
+}
+#avi{
+   margin-top:115px;
+   margin-left: -425px;
+   position:absolute;
+   width:20%;
+   height:auto;
+}
+#Quote{
+   font-weight: bold;
+   font-family: 'Nanum Gothic Coding', monospace;
+   font-size: 54px;
+   float:right;
+   margin-top:250px;
+   margin-right: 10%;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 100px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 110px;
+   padding:0px 30px;
+   font-size: 22px;
+}
+.navbar ul li .contacts{
+   padding: 6px 15px;
+   background:rgb(149, 254, 131);
+   border: 1px solid rgb(149, 254, 131);
+   border-radius:10px;
+   color:rgb(6, 127, 14);
+   font-size: 21px;
+   font-weight:bold;
+}
+.navbar ul li .contacts:hover{
+   background:rgb(6, 127, 14);
+   color:white;
+   border: 1px solid rgb(6, 127, 14);
+}
+.navbar ul li a {
+   color:white;
+}
+
+.navbar ul li a:hover{
+   color:rgb(149, 254, 131);
+}
+
+#back{
+    margin-top: 100px;
+    margin-left:100px;
+}
+
+.about_container{
+   padding:0px; 
+   margin:0px; 
+   
+}
+
+.about_me{
+   margin-top: -25px;
+   background: rgba(251, 168, 31, 1);
+   text-align: center;
+   font-family: 'Nanum Gothic Coding', monospace;
+   color: white;
+}
+.about_me h1{
+   font-size: 54px;
+}
+.about_me p {
+   font-size: 22px;
+   line-height: 32px;
+}
+.projects_container{
+   font-family: 'Nanum Gothic Coding', monospace;
+}
+.projects_container h1{
+   text-align: center;
+   font-size: 54px;
+   font-weight: bold;
+  
+}
+.projects{
+   margin-top:100px;
+   width:74%;
+   float: left;
+   margin-bottom: 100px;
+
+}
+
+.tile{
+   border-radius: 15px;
+   box-sizing: content-box;
+   box-shadow: 1px 2px 2px 1px grey;
+   margin-right:25px;
+   float:right;
+   text-align:center;
+   height:auto + 20px;
+   width:350px;
+   padding-bottom: 20px;
+   
+}
+
+.tile h2{
+   border-radius: 15px 15px 0px 0px;
+   background:orange;
+   padding:20px 20px 20px 20px;
+}
+.tile p{
+   padding:0px 20px 0px 20px;
+}
+.tile a{
+   border-radius: 0px 0px 15px 15px;
+   background: cyan;
+   padding:10px 130px 20px 130px;
+}
+.resume_container{
+   font-family: 'Nanum Gothic Coding', monospace;
+}
+.resume{
+   margin-top:-4px;
+   text-align: center;
+   background: rgba(55, 248, 225, 1);
+   padding-bottom:75px;
+}
+.resume h1{
+   font-size: 54px;
+   margin-bottom: 75px;
+   color: aliceblue;
+}
+.resume a{
+   font-family: 'IBM Plex Mono', monospace;
+   font-size:30px;
+   text-decoration: none;
+   background: rgb(4, 0, 128);
+   color:white;
+   font-weight: bold;
+   padding:15px 25px;
+   border-radius: 15px;
+}
+
+.resume a:hover{
+   background: white;
+   color:rgb(4, 0, 128);
+   transition: 0.5s;
+}
+
+.footer{
+   width:61%;
+}
+
+.footer ul{
+   list-style: none;
+}
+.footer ul li{
+   float:right;
+   text-align: center;
+   padding:20px;
+}
+.copyright{
+   margin-top:52px;
+   background: black;
+   color:aliceblue;
+   text-align: center;
+   padding:20px;
+}
